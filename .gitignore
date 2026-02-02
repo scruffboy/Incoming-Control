@@ -1,0 +1,6 @@
+# Virt Environment
+.venv
+venv
+
+# Pytest elements
+__pycache__
