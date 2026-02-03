@@ -1,3 +1,5 @@
 from core.data_reader import DataReader as dr
+from core.analyzer import DataAnalyzer as da
 
-dr.read_data_from_file()
+data = dr.read_data_from_file()  # type: ignore
+print(da.iii(data))
