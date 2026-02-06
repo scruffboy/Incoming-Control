@@ -10,7 +10,7 @@ class DataCreator:
 
     @staticmethod
     def _get_group_and_temp(supplier: str, temp: str) -> Tuple[str, str] | None:
-        
+        pass
 
     @staticmethod
     def create_output_data(

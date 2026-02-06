@@ -4,9 +4,6 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
 class Config:
-    """
-    Docstring для Config
-    """
 
     # File paths
     DATA_DIR = PROJECT_ROOT / "src" / "data"
