@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date
 
 
 class OutputData:
@@ -8,7 +8,7 @@ class OutputData:
 
     def __init__(
         self,
-        date: datetime,
+        date: date,
         document_number: str,
         supplier: str,
         group_product: str,
@@ -23,3 +23,6 @@ class OutputData:
         self.mark_2 = "V"
         self.mark_3 = "V"
         self.mark_4 = "V"
+
+    def __repr__(self) -> str:
+        return f"{self.date}, {self.document_number}, {self.supplier}, {self.group_product}, {self.temp}, {self.mark_1}, {self.mark_2}, {self.mark_3}, {self.mark_4}"

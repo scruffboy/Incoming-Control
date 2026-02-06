@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date
 
 
 class LoadData:
@@ -6,9 +6,7 @@ class LoadData:
     Class for raw input data
     """
 
-    def __init__(
-        self, date: datetime, supplier: str, storage: str, document_number: str
-    ):
+    def __init__(self, date: date, supplier: str, storage: str, document_number: str):
         self.date = date
         self.supplier = supplier
         self.storage = storage

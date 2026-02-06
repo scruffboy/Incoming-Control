@@ -8,7 +8,7 @@ class DataReader:
     """
 
     @staticmethod
-    def read_data_from_file():
+    def read_data_from_file() -> pd.DataFrame | str | None:
         """
         Reads raw data from a data file
         """
