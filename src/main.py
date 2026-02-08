@@ -1,8 +1,9 @@
 from core.data_reader import DataReader as dr
 from core.analyzer import DataAnalyzer as da
 from core.creator import DataCreator as dc
-
+from core.writer import DataWriter as dw
 
 data = dr.read_data_from_file()
-date_2 = da.analyzer(data)
-print(dc.create_output_data(date_2))
+data_2 = da.analyzer(data)
+data_3 = dc.create_output_data(data_2)
+dw.writing_output_data_to_excel(data_3)

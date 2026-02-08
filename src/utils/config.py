@@ -9,7 +9,7 @@ class Config:
     DATA_DIR = PROJECT_ROOT / "src" / "data"
 
     PATH_TO_RAW_DATA_FILE = DATA_DIR / "test_2.xlsx"
-    PATH_TO_THE_PROCESSED_DATA_FILE = ""
+    PATH_TO_THE_PROCESSED_DATA_FILE = DATA_DIR / "output_data_test.xlsx"
 
     # Name index
     DATE = 0
