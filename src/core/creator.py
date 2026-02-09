@@ -1,6 +1,6 @@
 from typing import List, Tuple
-from models.output_data import OutputData
-from models.load_data import LoadData
+from src.models.output_data import OutputData
+from src.models.load_data import LoadData
 
 
 class DataCreator:

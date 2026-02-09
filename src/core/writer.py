@@ -1,7 +1,7 @@
 import pandas as pd
 from typing import List
-from models.output_data import OutputData
-from utils.config import Config as conf
+from src.models.output_data import OutputData
+from src.utils.config import Config as conf
 
 
 class DataWriter:

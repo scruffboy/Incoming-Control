@@ -1,7 +1,7 @@
-from core.data_reader import DataReader as dr
-from core.analyzer import DataAnalyzer as da
-from core.creator import DataCreator as dc
-from core.writer import DataWriter as dw
+from src.core.data_reader import DataReader as dr
+from src.core.analyzer import DataAnalyzer as da
+from src.core.creator import DataCreator as dc
+from src.core.writer import DataWriter as dw
 
 data = dr.read_data_from_file()
 data_2 = da.analyzer(data)

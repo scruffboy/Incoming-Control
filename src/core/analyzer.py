@@ -1,8 +1,8 @@
 import pandas as pd
-from models.load_data import LoadData
+from src.models.load_data import LoadData
 from typing import List
-from utils.config import Config as conf
-from utils.helper import Utils as utl
+from src.utils.config import Config as conf
+from src.utils.helper import Utils as utl
 
 
 class DataAnalyzer:

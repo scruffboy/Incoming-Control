@@ -11,6 +11,16 @@ class Config:
     PATH_TO_RAW_DATA_FILE = DATA_DIR / "test_2.xlsx"
     PATH_TO_THE_PROCESSED_DATA_FILE = DATA_DIR / "output_data_test.xlsx"
 
+    # Test file paths
+    TEST_DATA_DIR = PROJECT_ROOT / "tests" / "data"
+
+    TEST_PATH_TO_SAMPLE_FILE = TEST_DATA_DIR / "test_sample_excel.xlsx"
+
+    # Logger paths
+    LOGGER_DIR = PROJECT_ROOT / "tools" / "log"
+
+    PATH_TO_LOG_FILES = LOGGER_DIR / "app.log"
+
     # Name index
     DATE = 0
     SUPPLIER = 1
