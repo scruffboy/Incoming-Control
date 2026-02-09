@@ -1,5 +1,9 @@
 import pandas as pd
+import logging
 from src.utils.config import Config as conf
+
+
+logger = logging.getLogger(__name__)
 
 
 class DataReader:
@@ -14,28 +18,24 @@ class DataReader:
         """
         Reads raw data from a data file
         """
-        data = None
-
-        if file_path.exists():
-            print(f"The file '{file_path.name}' exists.")
-        else:
-            print(f"The file '{file_path.name}' not found!")
+        if not file_path.exists():
+            logger.error(f"File not found '{file_path.name}'")
             return None
 
-        print(f"Trying to read file...")
+        logger.info(f"Reading file: '{file_path.name}'")
 
         try:
             if file_path.suffix == ".xlsx":
                 data = pd.read_excel(file_path, header=None)
-                print(f"The file is recognized as 'xlsx'.\nSuccessfully read.")
+                logger.info(f"File read: 'xlsx'")
                 return data
             elif file_path.suffix == ".txt":
                 data = file_path.read_text(encoding="utf-8")
-                print(f"The file is recognized as 'txt'.\nSuccessfully read.")
+                logger.info(f"File read: 'txt'")
                 return data
             else:
-                print(f"This file is not supported.")
+                logger.error(f"Unsupported format: '{file_path.suffix}'")
                 return None
-        except Exception as e:
-            print(f"Critical error while reading '{file_path.name}': {e}")
+        except Exception:
+            logger.exception(f"Critical error reading: {file_path.name}")
             return None

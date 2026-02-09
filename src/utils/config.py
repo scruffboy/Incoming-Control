@@ -17,9 +17,8 @@ class Config:
     TEST_PATH_TO_SAMPLE_FILE = TEST_DATA_DIR / "test_sample_excel.xlsx"
 
     # Logger paths
-    LOGGER_DIR = PROJECT_ROOT / "tools" / "log"
-
-    PATH_TO_LOG_FILES = LOGGER_DIR / "app.log"
+    LOG_DIR = PROJECT_ROOT / "logs"
+    PATH_TO_LOG_FILES = LOG_DIR / "app.log"
 
     # Name index
     DATE = 0
