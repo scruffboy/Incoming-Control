@@ -19,23 +19,23 @@ class DataReader:
         Reads raw data from a data file
         """
         if not file_path.exists():
-            logger.error(f"File not found '{file_path.name}'")
+            logger.error(f"File not found '{file_path.name}'!")
             return None
 
-        logger.info(f"Reading file: '{file_path.name}'")
+        logger.info(f"Reading file: '{file_path.name}'.")
 
         try:
             if file_path.suffix == ".xlsx":
                 data = pd.read_excel(file_path, header=None)
-                logger.info(f"File read: 'xlsx'")
+                logger.info(f"File read: 'xlsx'.")
                 return data
             elif file_path.suffix == ".txt":
                 data = file_path.read_text(encoding="utf-8")
-                logger.info(f"File read: 'txt'")
+                logger.info(f"File read: 'txt'.")
                 return data
             else:
-                logger.error(f"Unsupported format: '{file_path.suffix}'")
+                logger.error(f"Unsupported format: '{file_path.suffix}'!")
                 return None
         except Exception:
-            logger.exception(f"Critical error reading: {file_path.name}")
+            logger.exception(f"Critical error reading: {file_path.name}!")
             return None
