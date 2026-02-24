@@ -5,22 +5,28 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 class Config:
 
-    # File paths
-    DATA_DIR = PROJECT_ROOT / "src" / "data"
+    # Base directory
+    DATA_DIR = PROJECT_ROOT / "data"
+    LOG_DIR = PROJECT_ROOT / "logs"
 
-    PATH_TO_RAW_DATA_FILE = DATA_DIR / "test_2.xlsx"
-    PATH_TO_THE_PROCESSED_DATA_FILE = DATA_DIR / "output_data_test.xlsx"
+    # Subfolders
+    RAW_DIR = DATA_DIR / "raw"
+    PROCESSED_DIR = DATA_DIR / "processed"
+    REF_DIR = DATA_DIR / "references"
 
-    # Test file paths
+    # Files
+    PATH_TO_RAW_DATA_FILE = RAW_DIR / "test_2.xlsx"
+    PATH_TO_THE_PROCESSED_DATA_FILE = PROCESSED_DIR / "output_data_test.xlsx"
+    SUPPLIERS_JSON = REF_DIR / "suppliers.json"
+
+    # Logs
+    PATH_TO_LOGS_FILES = LOG_DIR / "app.log"
+
+    # Tests
     TEST_DATA_DIR = PROJECT_ROOT / "tests" / "data"
-
     TEST_PATH_TO_SAMPLE_FILE = TEST_DATA_DIR / "test_sample_excel.xlsx"
 
-    # Logger paths
-    LOG_DIR = PROJECT_ROOT / "logs"
-    PATH_TO_LOG_FILES = LOG_DIR / "app.log"
-
-    # Name index
+    # Index
     DATE = 0
     SUPPLIER = 1
     STORAGE = 2
