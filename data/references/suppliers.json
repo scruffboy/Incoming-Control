@@ -1,6 +1,364 @@
 {
-  "SUP_1": {
-    "name": "ПепсиКо Холдинг",
-    "product group": "Напитки"
+  "contractors": [
+    {
+      "name": "Агама Истра",
+      "type": "fixed",
+      "group": "Заморозка",
+      "temperature": "-18°C"
+    },
+    {
+      "name": "АгриКо",
+      "type": "fixed",
+      "group": "Охлажденные",
+      "temperature": "+4°C"
+    },
+    {
+      "name": "Бабин Владимир Анатольевич ИП",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    },
+    {
+      "name": "Бибомания",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    },
+    {
+      "name": "Бочкова Ирина Николаевна,ИП",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    },
+    {
+      "name": "Восток-Запад",
+      "type": "fixed",
+      "group": "Охлажденные",
+      "temperature": "+4°C"
+    },
+    {
+      "name": "ГЕРАЛЬТ ООО",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    },
+    {
+      "name": "Гегамян Марлена Гарниковна",
+      "type": "fixed",
+      "group": "Заморозка",
+      "temperature": "-18°C"
+    },
+    {
+      "name": "Глобал Фудс Торговый Дом",
+      "type": "random",
+      "description": "Чаще охлажденка, но бывает и сухой склад",
+      "options": [
+        {
+          "group": "Охлажденные",
+          "temperature": "+4°C",
+          "weight": 70
+        },
+        {
+          "group": "Сухие",
+          "temperature": "+10°C",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "name": "Дарвин Артём Игоревич",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    },
+    {
+      "name": "Евразия Торговый Дом",
+      "type": "fixed",
+      "group": "Охлажденные",
+      "temperature": "+4°C"
+    },
+    {
+      "name": "Ермолаева Анжелика ИП",
+      "type": "fixed",
+      "group": "Заморозка",
+      "temperature": "-18°C"
+    },
+    {
+      "name": "ИРБИТСКИЙ МОЛОЧНЫЙ ЗАВОД",
+      "type": "fixed",
+      "group": "Охлажденные",
+      "temperature": "+4°C"
+    },
+    {
+      "name": "Ильтяков Д.В. ИП",
+      "type": "fixed",
+      "group": "Охлажденные",
+      "temperature": "+4°C"
+    },
+    {
+      "name": "Инстамарт Сервис",
+      "type": "random",
+      "description": "В основном сухие, но могут быть сюрпризы",
+      "options": [
+        {
+          "group": "Сухие",
+          "temperature": "+10°C",
+          "weight": 85
+        },
+        {
+          "group": "Охлажденные",
+          "temperature": "+4°C",
+          "weight": 10
+        },
+        {
+          "group": "Заморозка",
+          "temperature": "-18°C",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "name": "Италика - Урал",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    },
+    {
+      "name": "Компания Смайли",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    },
+    {
+      "name": "Комус",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C",
+      "description": "Канцелярия/хозтовары"
+    },
+    {
+      "name": "Марр Руссия",
+      "type": "random",
+      "description": "В основном заморозка, но на сухой склад приходит сухим",
+      "options": [
+        {
+          "group": "Заморозка",
+          "temperature": "-18°C",
+          "weight": 85
+        },
+        {
+          "group": "Сухие",
+          "temperature": "+10°C",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "name": "Матушка ТД",
+      "type": "fixed",
+      "group": "Заморозка",
+      "temperature": "-18°C"
+    },
+    {
+      "name": "Медовая компания",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    },
+    {
+      "name": "Метро кэш энд керри",
+      "type": "random",
+      "description": "Универсальный поставщик, чаще охлажденка",
+      "options": [
+        {
+          "group": "Охлажденные",
+          "temperature": "+4°C",
+          "weight": 70
+        },
+        {
+          "group": "Сухие",
+          "temperature": "+10°C",
+          "weight": 20
+        },
+        {
+          "group": "Заморозка",
+          "temperature": "-18°C",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "name": "Мираторг",
+      "type": "fixed",
+      "group": "Заморозка",
+      "temperature": "-18°C"
+    },
+    {
+      "name": "Петухов Валерий Владимирович ИП",
+      "type": "fixed",
+      "group": "Овощи/Фрукты",
+      "temperature": "+4°C"
+    },
+    {
+      "name": "Продсервис ТД",
+      "type": "fixed",
+      "group": "Охлажденные",
+      "temperature": "+4°C"
+    },
+    {
+      "name": "Птицефабрика Свердловская",
+      "type": "random",
+      "description": "Яйца - вроде охлажденка, но могут быть и сухие продукты",
+      "options": [
+        {
+          "group": "Охлажденные",
+          "temperature": "+4°C",
+          "weight": 60
+        },
+        {
+          "group": "Сухие",
+          "temperature": "+10°C",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "name": "РАФТ",
+      "type": "fixed",
+      "group": "Заморозка",
+      "temperature": "-18°C"
+    },
+    {
+      "name": "Регул",
+      "type": "random",
+      "description": "Чаще охлажденка, но бывает сухой склад",
+      "options": [
+        {
+          "group": "Охлажденные",
+          "temperature": "+4°C",
+          "weight": 80
+        },
+        {
+          "group": "Сухие",
+          "temperature": "+10°C",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "name": "Реж-Хлеб / Режевской Хлебокомбинат АО",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C",
+      "description": "Хлебобулочные изделия"
+    },
+    {
+      "name": "РестоЭксперт",
+      "type": "random",
+      "description": "В основном охлажденка",
+      "options": [
+        {
+          "group": "Охлажденные",
+          "temperature": "+4°C",
+          "weight": 90
+        },
+        {
+          "group": "Сухие",
+          "temperature": "+10°C",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "name": "СМАК",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    },
+    {
+      "name": "Сладкая Жизнь",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    },
+    {
+      "name": "УГМК АГРО",
+      "type": "fixed",
+      "group": "Охлажденные",
+      "temperature": "+4°C"
+    },
+    {
+      "name": "Хлебная Легенда",
+      "type": "fixed",
+      "group": "Заморозка",
+      "temperature": "-18°C"
+    },
+    {
+      "name": "Хорека Сервис",
+      "type": "random",
+      "description": "Чаще охлажденка",
+      "options": [
+        {
+          "group": "Охлажденные",
+          "temperature": "+4°C",
+          "weight": 85
+        },
+        {
+          "group": "Сухие",
+          "temperature": "+10°C",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "name": "ЭЙЧ ЭНД ЭН ТРЕЙД бывший Данон",
+      "type": "fixed",
+      "group": "Охлажденные",
+      "temperature": "+4°C",
+      "description": "Молочная продукция"
+    },
+    {
+      "name": "Эсвига",
+      "type": "fixed",
+      "group": "Сухие",
+      "temperature": "+10°C"
+    }
+  ],
+  "default": {
+    "type": "random",
+    "description": "Для новых/неизвестных поставщиков",
+    "options": [
+      {
+        "group": "Охлажденные",
+        "temperature": "+4°C",
+        "weight": 40
+      },
+      {
+        "group": "Сухие",
+        "temperature": "+10°C",
+        "weight": 40
+      },
+      {
+        "group": "Заморозка",
+        "temperature": "-18°C",
+        "weight": 20
+      }
+    ]
+  },
+  "rules": {
+    "dry_warehouse_override": {
+      "description": "Если склад сухих продуктов - всегда сухие",
+      "condition": "warehouse == 'Склад HRE Сухих Продуктов'",
+      "group": "Сухие",
+      "temperature": "+10°C",
+      "priority": 100
+    }
+  },
+  "metadata": {
+    "version": "2.0",
+    "description": "Справочник для автоотчетности с рандомом",
+    "season": "Зима (Екатеринбург)",
+    "created": "2024",
+    "notes": "Для поставщиков с типом 'random' используется случайный выбор с указанными весами"
   }
 }

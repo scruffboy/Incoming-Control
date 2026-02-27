@@ -3,7 +3,7 @@ import logging
 from src.models.load_data import LoadData
 from typing import List
 from src.utils.config import Config as conf
-from src.utils.helper import Utils as utl
+from src.utils.helper import Utils as utls
 
 
 logger = logging.getLogger(__name__)
@@ -30,7 +30,7 @@ class DataAnalyzer:
             rows = data.values.tolist()
             load_data_objects = [
                 LoadData(
-                    date=utl.formatting_date(r[conf.DATE]),
+                    date=utls.formatting_date(r[conf.DATE]),
                     supplier=r[conf.SUPPLIER],
                     storage=r[conf.STORAGE],
                     document_number=r[conf.DOCUMENT_NUM],
