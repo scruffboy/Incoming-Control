@@ -1,5 +1,5 @@
 import pandas as pd
-from src.core.data_reader import DataReader as dr
+from core.reader import DataReader as dr
 from src.utils.config import Config as conf
 
 

@@ -1,4 +1,4 @@
-from src.core.data_reader import DataReader as dr
+from core.reader import DataReader as dr
 from src.core.analyzer import DataAnalyzer as da
 from src.core.creator import DataCreator as dc
 from src.core.writer import DataWriter as dw
