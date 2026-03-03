@@ -1,6 +1,12 @@
+import logging
 from typing import List, Tuple
 from src.models.output_data import OutputData
 from src.models.load_data import LoadData
+from src.utils.helper import Utils as utls
+from src.utils.config import Config as conf
+
+
+logger = logging.getLogger(__name__)
 
 
 class DataCreator:
@@ -9,8 +15,9 @@ class DataCreator:
     """
 
     @staticmethod
-    def _get_group_and_temp(supplier: str, temp: str) -> Tuple[str, str] | None:
-        pass
+    def _get_group_and_temp() -> Tuple[str, str] | None:
+        """"""
+        suppliers_data = utls.load_json(conf.SUPPLIERS_JSON)
 
     @staticmethod
     def create_output_data(
