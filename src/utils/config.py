@@ -15,7 +15,7 @@ class Config:
     REF_DIR = DATA_DIR / "references"
 
     # Files
-    PATH_TO_RAW_DATA_FILE = RAW_DIR / "test_2.xlsx"
+    PATH_TO_RAW_DATA_FILE = RAW_DIR / "test_sample_excel.xlsx"
     PATH_TO_THE_PROCESSED_DATA_FILE = PROCESSED_DIR / "output_data_test.xlsx"
     SUPPLIERS_JSON = REF_DIR / "suppliers.json"
 
