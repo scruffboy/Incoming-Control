@@ -28,8 +28,8 @@ class Utils:
         Load JSON from a file
         """
         try:
-            with open(file_path, "r") as f:
+            with open(file_path, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception as e:
-            print(f"Eroor loading: '{e}'")
+            print(f"Error loading: '{e}'")
             return None
