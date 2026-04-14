@@ -1,0 +1,15 @@
+# Virt Environment
+.venv
+venv
+
+# Pytest elements
+__pycache__
+.pytest_cache
+
+# Logs
+logs
+
+# Files
+sqlite.db
+output_data_test.xlsx
+

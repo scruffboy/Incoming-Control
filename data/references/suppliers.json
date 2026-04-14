@@ -1,0 +1,167 @@
+{
+  "suppliers": [
+    {
+      "name": "Агама Истра",
+      "options": [{ "group": "Заморозка", "temperature": "-18°C" }]
+    },
+    {
+      "name": "АгриКо",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Бибомания",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "Бочкова Ирина Николаевна,ИП",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "ГЕРАЛЬТ ООО",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "Гегамян Марлена Гарниковна",
+      "options": [{ "group": "Заморозка", "temperature": "-18°C" }]
+    },
+    {
+      "name": "Глобал Фудс Торговый Дом",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Гуд-Фуд Торговая компания",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "Дарвин Артём Игоревич",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "Евразия Торговый Дом",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Ермолаева Анжелика ИП",
+      "options": [{ "group": "Заморозка", "temperature": "-18°C" }]
+    },
+    {
+      "name": "ИРБИТСКИЙ МОЛОЧНЫЙ ЗАВОД",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Ильтяков Д.В. ИП",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Италика - Урал",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "Комус",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "Марр Руссия",
+      "options": [
+        { "group": "Заморозка", "temperature": "-18°C" },
+        { "group": "Охлажденные", "temperature": "+4°C" }
+      ]
+    },
+    {
+      "name": "Матушка ТД",
+      "options": [{ "group": "Заморозка", "temperature": "-18°C" }]
+    },
+    {
+      "name": "Медовая компания",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "Метро кэш энд керри",
+      "options": [
+        { "group": "Заморозка", "temperature": "-18°C" },
+        { "group": "Охлажденные", "temperature": "+4°C" }
+      ]
+    },
+    {
+      "name": "МилкФест",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "Мираторг",
+      "options": [
+        { "group": "Заморозка", "temperature": "-18°C" },
+        { "group": "Охлажденные", "temperature": "+4°C" }
+      ]
+    },
+    {
+      "name": "Молочный Кит",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Петухов Валерий Владимирович ИП",
+      "options": [{ "group": "Овощи/Фрукты", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Продсервис ТД",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Птицефабрика Свердловская",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "РАФТ",
+      "options": [{ "group": "Заморозка", "temperature": "-18°C" }]
+    },
+    {
+      "name": "Регул",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Реж-Хлеб / Режевской Хлебокомбинат АО",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "РестоЭксперт",
+      "options": [
+        { "group": "Заморозка", "temperature": "-18°C" },
+        { "group": "Охлажденные", "temperature": "+4°C" }
+      ]
+    },
+    {
+      "name": "СМАК",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "Сладкая Жизнь",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "УГМК АГРО",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Хлебная Легенда",
+      "options": [{ "group": "Заморозка", "temperature": "-18°C" }]
+    },
+    {
+      "name": "Хорека Сервис",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "ЭЙЧ ЭНД ЭН ТРЕЙД бывший Данон",
+      "options": [{ "group": "Охлажденные", "temperature": "+4°C" }]
+    },
+    {
+      "name": "Эсвига",
+      "options": [{ "group": "Сухие", "temperature": "+18°C" }]
+    },
+    {
+      "name": "Восток-Запад",
+      "options": [
+        { "group": "Заморозка", "temperature": "-18°C" },
+        { "group": "Охлажденные", "temperature": "+4°C" }
+      ]
+    }
+  ]
+}
