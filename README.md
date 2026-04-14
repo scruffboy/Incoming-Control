@@ -23,7 +23,7 @@ Automatic reporting on incoming inspections. Data is received from an Excel file
 - **Clone the repository**
 
 ```bash
-git clone 'link'
+git clone https://github.com/scruffboy/Incoming-Control.git
 cd Incoming-Control
 ```
 
