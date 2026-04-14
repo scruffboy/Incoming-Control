@@ -4,11 +4,11 @@ Automatic reporting on incoming inspections. Data is received from an Excel file
 
 ## Workflow
 
-**Import**: Data is read from an Excel file in table format: date, document number, supplier, warehouse.
-**Analysis**: Incoming data is analyzed and converted into raw data objects.
-**Creation**: Creation of ready-made objects for output to a file and writing to a database. Internal logic: selection of product group and temperature.
-**Output**: The processed data is saved in a table: date, document number, supplier, product group, temperature, packaging condition, accompanying documents, driver's medical record, availability, and markings.
-**Database**: The data is written to the database.
+- **Import**: Data is read from an Excel file in table format: date, document number, supplier, warehouse.
+- **Analysis**: Incoming data is analyzed and converted into raw data objects.
+- **Creation**: Creation of ready-made objects for output to a file and writing to a database. Internal logic: selection of product group and temperature.
+- **Output**: The processed data is saved in a table: date, document number, supplier, product group, temperature, packaging condition, accompanying documents, driver's medical record, availability, and markings.
+- **Database**: The data is written to the database.
 
 ## Technology Stack
 
