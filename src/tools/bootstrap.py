@@ -17,6 +17,6 @@ def init_project_structure():
             else:
                 logger.debug(f"'{directory}' exists.")
         except PermissionError:
-            logger.error(f"Permission denied: Could not create: '{directory}'!")
+            logger.error(f"Permission denied: сould not create: '{directory}'!")
         except Exception as e:
             logger.error(f"Unknow error: '{e}'!")
