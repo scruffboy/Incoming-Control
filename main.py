@@ -6,6 +6,7 @@ from src.core.writer import DataWriter
 from src.db.repository import DatabaseInteraction
 from src.db.connection import DatabaseConnection
 from src.tools.logger import setup_logging
+from src.tools.bootstrap import init_project_structure
 
 
 def main():
@@ -13,6 +14,7 @@ def main():
     logger = logging.getLogger(__name__)
 
     logger.info("Program initialization...")
+    init_project_structure()
     DatabaseConnection.init_db()
 
     raw_data = DataReader.read_data_from_file()

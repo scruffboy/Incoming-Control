@@ -2,6 +2,9 @@
 .venv
 venv
 
+# Environment
+.env
+
 # Pytest elements
 __pycache__
 .pytest_cache

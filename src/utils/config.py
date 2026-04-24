@@ -15,6 +15,8 @@ class Config:
     REF_DIR = DATA_DIR / "references"
     DB_DIR = DATA_DIR / "db"
 
+    REQUIRED_DIR = [RAW_DIR, PROCESSED_DIR, REF_DIR, DB_DIR]
+
     # Files
     PATH_TO_RAW_DATA_FILE = RAW_DIR / "test_sample_excel.xlsx"
     PATH_TO_THE_PROCESSED_DATA_FILE = PROCESSED_DIR / "output_data_test.xlsx"
