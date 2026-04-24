@@ -16,3 +16,6 @@ logs
 sqlite.db
 output_data_test.xlsx
 
+# VsCode
+.vscode
+
