@@ -16,6 +16,7 @@ def get_file_path() -> Path:
 
     if args.raw_file:
         path = Path(args.raw_file.strip('"'))
+        logger.info(f"The path has been chosen: {path}.")
         return path
 
     while True:
@@ -24,6 +25,8 @@ def get_file_path() -> Path:
         )
 
         if user_input:
-            return Path(user_input)
+            path = Path(user_input)
+            logger.info(f"The path has been chosen: {path}.")
+            return path
 
-        logger.error(f"Alert! No file path.")
+        logger.error(f"Alert! File path is missing.")
