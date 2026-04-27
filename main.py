@@ -7,6 +7,7 @@ from src.db.repository import DatabaseInteraction
 from src.db.connection import DatabaseConnection
 from src.tools.logger import setup_logging
 from src.tools.bootstrap import init_project_structure
+from src.tools.cli_handler import get_file_path
 
 
 def main():
@@ -17,7 +18,7 @@ def main():
     init_project_structure()
     DatabaseConnection.init_db()
 
-    raw_data = DataReader.read_data_from_file()
+    raw_data = DataReader.read_data_from_file(file_path=get_file_path())
     load_object_list = DataAnalyzer.analyzer(raw_data)
     output_object_list = DataCreator.create_output_data(load_object_list)
 
