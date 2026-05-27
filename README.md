@@ -103,60 +103,43 @@ python main.py path/to/your_file.xlsx
 
 ```
 Incoming-Control/
-├── main.py # точка входа
-├── README.md # документация проекта
-├── requirements.txt # зависимости
-├── LICENSE # лицензия MIT
-├── data/ # каталог данных
-│ ├── raw/ # входные файлы Excel
-│ ├── processed/ # выходные файлы Excel
-│ ├── references/ # справочные данные suppliers.json
-│ └── db/ # база данных SQLite
-├── logs/ # файлы журналов
-├── tests/ # набор тестов
-│ ├── conftest.py # pytest фикстуры
-│ └── integration/ # интеграционные тесты
-│ ├── test_analyzer.py
-│ ├── test_creator.py
-│ ├── test_load_json.py
-│ └── test_reader.py
+├── main.py              # точка входа
+├── README.md            # документация проекта
+├── requirements.txt     # зависимости
+├── LICENSE              # лицензия MIT
+├── data/                # директория данных
+│   ├── raw/             # входные Excel-файлы
+│   ├── processed/       # выходные Excel-файлы
+│   ├── references/      # справочник suppliers.json
+│   └── db/              # база данных SQLite
+├── logs/                # лог-файлы
+├── tests/               # тесты
+│   ├── conftest.py      # фикстуры pytest
+│   └── integration/     # интеграционные тесты
+│       ├── test_analyzer.py
+│       ├── test_creator.py
+│       ├── test_load_json.py
+│       └── test_reader.py
 └── src/
-
-├── core/
-│ ├── reader.py # чтение файла Excel
-
-│ ├── analyzer.py # проверка и преобразование данных
-
-│ ├── creator.py # создание выходного объекта
-
-│ └── writer.py # экспорт в Excel
-
-├── db/
-
-│ ├── connection.py # механизм базы данных и сессии
-
-│ ├── db_models.py # модели SQLAlchemy
-
-│ └── repository.py # операции с базой данных
-
-├── models/
-
-│ ├── load_data.py # класс данных необработанных данных
-
-│ └── output_data.py # класс данных обработанных данных
-
-├── tools/
-
-│ ├── bootstrap.py # инициализация каталога
-
-│ ├── cli_handler.py # разбор аргументов CLI
-
-│ └── logger.py # настройка логирования
-
-└── utils/
-
-├── config.py # конфигурация
-└── helper.py # вспомогательные функции
+    ├── core/
+    │   ├── reader.py    # чтение Excel-файлов
+    │   ├── analyzer.py  # валидация и обработка данных
+    │   ├── creator.py   # создание выходных объектов
+    │   └── writer.py    # экспорт в Excel
+    ├── db/
+    │   ├── connection.py # движок и сессии БД
+    │   ├── db_models.py  # модели SQLAlchemy
+    │   └── repository.py # операции с базой данных
+    ├── models/
+    │   ├── load_data.py  # dataclass сырых данных
+    │   └── output_data.py # dataclass обработанных данных
+    ├── tools/
+    │   ├── bootstrap.py  # инициализация директорий
+    │   ├── cli_handler.py # аргументы командной строки
+    │   └── logger.py     # настройка логирования
+    └── utils/
+        ├── config.py     # конфигурация
+        └── helper.py     # вспомогательные функции
 ```
 
 ## Рабочий процесс
