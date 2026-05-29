@@ -44,7 +44,7 @@ Incoming-Control/
         ├── config.py     # configuration
         └── helper.py     # utility functions
 ```
-        
+
 ## Workflow
 
 - **Import**: Data is read from an Excel file in table format: date, document number, supplier, warehouse.
@@ -91,6 +91,13 @@ pip install -r requirements.txt
 
 ```bash
 python main.py path/to/your_file.xlsx
+```
+
+## Run Docker
+
+```bash
+docker build -t incoming-control .
+docker run --rm incoming-control
 ```
 
 ---
@@ -192,4 +199,11 @@ pip install -r requirements.txt
 
 ```bash
 python main.py path/to/your_file.xlsx
+```
+
+## Запуск Docker
+
+```bash
+docker build -t incoming-control .
+docker run --rm incoming-control
 ```
